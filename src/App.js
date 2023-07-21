@@ -1,24 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
+import UseMemoHook from './Components/UseMemoHookExample'
+import UseContextHook from './Components/UseContextExample'
+import UseRefHook from './Components/UseRefExample'
+import ReducerHook from './Components/UseReducerExample'
+import ParentComponent from './Components/UseCallbackExample'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ReducerHook/>
   );
 }
 
